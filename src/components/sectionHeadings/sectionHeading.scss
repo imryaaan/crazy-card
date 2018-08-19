@@ -1,0 +1,50 @@
+.section-heading {
+    background: #d3d3d3;
+    height: auto;
+    padding: 2rem;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+}
+
+.number {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000000;
+    color: grey;
+    font-size: 5rem;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* tablet and up */
+
+@media only screen and (min-width: 768px) {
+    .number {
+        border-right: 2px solid #000000;
+        border-bottom: 0px solid #000000;
+    }
+    .title {
+        font-size: 3rem;
+        text-align: left;
+        margin-top: 0rem;
+    }
+    .subtitle {
+        text-align: left;
+    }
+}
